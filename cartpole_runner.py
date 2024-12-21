@@ -139,6 +139,6 @@ def run(is_training=True, render=False):
     save_q_table(Q_table)   # the model has been trained - dump Q_table to a file
 
 if __name__ == '__main__':
-    run(is_training=True, render=False) # train the model (you can do it just once, or play around with different params) and save it
+    run(is_training=True, render=False) # train the model and save it (you can do it just once, or play around with different params)
 
     run(is_training=False, render=True) # load the model and test!
